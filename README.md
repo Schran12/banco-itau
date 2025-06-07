@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Banco Itaú - Clone Moderno
 
-## Getting Started
+Este é um clone moderno da página do Banco Itaú, desenvolvido com Next.js, TypeScript e Swiper.js. O projeto visa replicar a experiência visual e interativa do site oficial, com foco em responsividade, usabilidade e animações suaves.
 
-First, run the development server:
+---
+
+## Demo Online
+
+Acesse o projeto no link abaixo para ver a aplicação funcionando:
+
+🔗 [https://banco-itau-tau.vercel.app/](https://banco-itau-tau.vercel.app/)
+
+---
+
+## Tecnologias Utilizadas
+
+- **Next.js** – Framework React para produção, com renderização híbrida (SSR/SSG)
+- **TypeScript** – Superset do JavaScript com tipagem estática para mais segurança e escalabilidade
+- **Swiper.js** – Biblioteca para criação de sliders/carrosséis responsivos e animados
+- **Tailwind CSS** – Framework utilitário para estilização rápida e responsiva
+- **React** – Biblioteca JavaScript para criação de interfaces declarativas
+
+---
+
+## Funcionalidades
+
+- Layout responsivo, adaptado para dispositivos móveis e desktop
+- Carrossel animado com Swiper.js para destaque de informações
+- Navegação intuitiva e acessível
+- Favicon personalizado
+- Seções dinâmicas com conteúdo realista
+- Botões e links estilizados seguindo a identidade visual do Itaú
+
+---
+
+## Como Rodar o Projeto Localmente
+
+1. Clone este repositório:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+git clone https://github.com/seu-usuario/banco-itau.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
